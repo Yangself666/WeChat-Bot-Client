@@ -1,0 +1,7 @@
+config:
+  weChat:
+#     url: ws://localhost:5555
+    url: ws://192.168.208.15:5555
+
+server:
+  port: 8080
