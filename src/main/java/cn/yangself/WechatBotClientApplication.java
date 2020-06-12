@@ -30,7 +30,7 @@ public class WechatBotClientApplication {
         client.connect();
         while (!client.getReadyState().equals(ReadyState.OPEN)) {
             Thread.sleep(500);
-            System.out.println("正在链接...");
+            System.out.println("正在建立连接......");
         }
         return client;
     }
